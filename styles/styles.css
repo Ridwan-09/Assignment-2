@@ -1,0 +1,21 @@
+/* Copa, banner and container styles */
+
+.container{
+    width: 1440px;
+    height: 677px;
+    background-color: #2D25A0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.banner{
+    font-family: 'Poppins', sans-serif;
+}
+.copa{
+    width: 485px;
+    height: 230px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFFFFF;
+}
