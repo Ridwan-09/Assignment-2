@@ -13,6 +13,7 @@ body{
     width: 1300px;
     height: 700px;
     background-color: #2D25A0;
+    justify-content: center;
 }
 
 /* copa styles */
@@ -32,7 +33,7 @@ body{
     font-size: 16px;
     color: #FFFFFF; 
     padding: 10px 12px;
-    margin: 107px 250px 200px 150px;
+    margin: 50px 250px 200px 150px;
 }
 
 /* banner img styles */
