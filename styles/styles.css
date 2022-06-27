@@ -12,14 +12,16 @@ body{
     background-color: #2D25A0;
 }
 .copa{
-    width: 375px;
+    width: 350px;
     height: 155px;
-    font-size: 32px;
+    font-size: 30px;
     color: #FFFFFF;
+    margin: 107px 100px 140px 150px;
 }
 
 .banner img{
     width: 556.01px;
     height: 438px;
-    margin: 100px 150px 86px 143px;
+    /* margin: 100px 150px 86px 143px;  */
+    margin: 107px 100px 140px 150px;
 }
