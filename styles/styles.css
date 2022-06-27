@@ -8,14 +8,16 @@ body{
 
 /* container styles */
 
-.container{
-    display: flex;
+.container{    
     width: 1300px;
     height: 700px;
     background-color: #2D25A0;
     justify-content: center;
 }
 
+.first-part{
+    display: flex;
+}
 /* copa styles */
 
 .copa{
@@ -38,7 +40,7 @@ body{
 
 .watch-live:hover{
     transform: scale(1.5);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 /* banner img styles */
@@ -47,6 +49,14 @@ body{
     width: 556.01px;
     height: 438px;
     margin: 107px 100px 140px 150px;
+}
+
+/* players info */
+
+.photos{
+    width: 1440px;
+    height: 3750px;
+    background: #FFFFFF;
 }
 
 
