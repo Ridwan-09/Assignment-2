@@ -1,16 +1,18 @@
-/* Copa, banner and container styles */
-
+/* font styles */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* container styles */
 .container{
     display: flex;
     width: 1300px;
     height: 700px;
     background-color: #2D25A0;
 }
+/* copa styles */
 .copa{
     width: 350px;
     height: 155px;
@@ -18,10 +20,9 @@ body{
     color: #FFFFFF;
     margin: 107px 100px 140px 150px;
 }
-
+/* banner styles */
 .banner img{
     width: 556.01px;
     height: 438px;
-    /* margin: 100px 150px 86px 143px;  */
     margin: 107px 100px 140px 150px;
 }
