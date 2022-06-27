@@ -14,8 +14,10 @@
 .copa{
     width: 485px;
     height: 230px;
-    font-family: 'Poppins';
-    font-weight: 700;
     font-size: 64px;
     color: #FFFFFF;
+}
+.banner{
+    width: 556.01px;
+    height: 438px;
 }
