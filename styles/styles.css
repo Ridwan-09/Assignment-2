@@ -54,16 +54,24 @@ body{
 /* all photo related styles */
 
 .photo-album{
-    width: 1440px;
-    height: 3750px;
+    width: 440px;
+    height: 1850px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 120px;   
+    margin-bottom: 25px; 
+  
+   
 }
 .photo-frame{
     width: 330px;
     height: 474px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 18px;   
 }
 .photo-frame img{
     width: 300px;
