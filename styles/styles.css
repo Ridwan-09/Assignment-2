@@ -141,3 +141,8 @@ body{
 }
 
 
+.copyright{
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+}
