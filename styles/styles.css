@@ -79,8 +79,8 @@ body{
 /* photo-container styles */
 
 .photo-container{
-    width: 1200px;
-    height: 1800px;
+    width: 1000px;
+    height: 1750px;
 }
 
 /* photo-album styles*/
@@ -89,7 +89,6 @@ body{
     width: 1200px;
     height: 1500px;
     background-color: #FFFFFF;
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
@@ -141,12 +140,24 @@ body{
 }
 
 
+/* footer styles */
+
+.logo-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+/* image styles */
+
 .logo{
     width: 483.87px;
     height: 110px;
 }
 
 
+/* social links styles */
 
 .social-links{
     display: flex;
@@ -159,14 +170,6 @@ body{
     margin-bottom: 20px;
 }
 
-.logo-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 483.87px;
-    height: 213px;
-}
 
 .copyright{
     width: 236px;
@@ -177,5 +180,10 @@ body{
     align-items: center;
     text-align: right;
     color: #000000;
-
 }
+
+
+/* media queries */
+
+/* for mobile device */
+
