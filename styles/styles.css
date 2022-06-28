@@ -38,11 +38,12 @@ body{
     margin: 50px 250px 200px 150px;
 }
 
-
+/* fa-solid styles */
 .fa-solid{
     width: 24px;
     height: 24px;
 }
+
 
 /* transition and transform styles */
 
