@@ -23,10 +23,12 @@ body{
     color: #FFFFFF;
     margin: 107px 100px 50px 110px;
 }
+
+/* copa-live styles */
+
 .copa-live{
     margin: 50px 31px 60px 40px;
 }
-
 
 /* watch live styles */
 
@@ -34,14 +36,16 @@ body{
     width: 168px;
     height: 44px;
     background-color: #E02C6D;
-    font-size: 16px;
-    font-weight: 500;
-    color: #FFFFFF; 
     border: #E02C6D;
-    padding: 10px 24px;
+    padding: 10px 24px; 
     margin-top: 5px;
     margin-left: 110px;
-   
+    
+    /* text in button */
+
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
 }
 
 /* fa-solid styles */
@@ -50,7 +54,6 @@ body{
     width: 24px;
     height: 24px;
 }
-
 
 /* transition and transform styles */
 
@@ -73,12 +76,27 @@ body{
     display: flex;
 }
 
+/* photo-container styles */
+
+.photo-container{
+    width: 1200px;
+    height: 1800px;
+}
+
+/* photo-album styles */
+
+.photo-album{
+    width: 1200px;
+    height: 1500px;
+}
+
 /* photo-album */
 
 .photo-album{
     width: 1300px;
     height: 700px;
     background-color: #FFFFFF;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
@@ -129,16 +147,9 @@ body{
     margin: 0px 15px 15px 15px;
 }
 
-/* photo-album styles */
-.photo-album{
-    width: 1200px;
-    height: 1500px;
-}
 
 
-.photo-container{
-    width: 1200px;
-    height: 1800px;
-}
+
+
 
 
