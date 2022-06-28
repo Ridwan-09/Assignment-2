@@ -141,8 +141,41 @@ body{
 }
 
 
+.logo{
+    width: 483.87px;
+    height: 110px;
+}
+
+
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 170px;
+    height: 32px;
+    gap: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 483.87px;
+    height: 213px;
+}
+
 .copyright{
+    width: 236px;
+    height: 31px;
     font-weight: 400;
     font-size: 18px;
+    display: flex;
     align-items: center;
+    text-align: right;
+    color: #000000;
+
 }
