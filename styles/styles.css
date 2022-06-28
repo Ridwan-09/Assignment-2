@@ -21,8 +21,9 @@ body{
     height: 130px;
     font-size: 40px;
     color: #FFFFFF;
-    margin: 107px 100px 140px 150px;
+    margin: 107px 100px 50px 150px;
 }
+
 
 /* watch live styles */
 
@@ -35,10 +36,12 @@ body{
     color: #FFFFFF; 
     border: #E02C6D;
     padding: 10px 24px;
-    margin: 50px 250px 200px 150px;
+    margin-top: 5px;
+    margin-left: 145px;
 }
 
 /* fa-solid styles */
+
 .fa-solid{
     width: 24px;
     height: 24px;
@@ -84,7 +87,7 @@ body{
     background-color: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);    
     padding: 15px;
-    margin: 15px;
+    margin: 25px;
 }
 
 /* photos styles*/
@@ -99,7 +102,7 @@ body{
 
 .img-info{
     width: 300px;
-    height: 154px;
+    height: 180px;
 }
 
 /* player-name styles */
