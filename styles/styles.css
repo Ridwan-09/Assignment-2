@@ -83,18 +83,11 @@ body{
     height: 1800px;
 }
 
-/* photo-album styles */
+/* photo-album styles*/
 
 .photo-album{
     width: 1200px;
     height: 1500px;
-}
-
-/* photo-album */
-
-.photo-album{
-    width: 1300px;
-    height: 700px;
     background-color: #FFFFFF;
 
     display: grid;
