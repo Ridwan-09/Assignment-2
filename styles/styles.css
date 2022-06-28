@@ -12,10 +12,9 @@ body{
     width: 1300px;
     height: 700px;
     background-color: #2D25A0;
-    justify-content: center;
 }
 
-.first-part{
+.copa-banner{
     display: flex;
 }
 /* copa styles */
@@ -66,8 +65,6 @@ body{
 /* photo-frame styles*/
 
 .photo-frame{
-    width: 330px;
-    height: 456px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);    
     padding: 15px;
@@ -107,6 +104,18 @@ body{
     font-weight: 400;
     font-size: 16px;
     margin: 0px 15px 15px 15px;
+}
+
+/* photo-album styles */
+.photo-album{
+    width: 1200px;
+    height: 1500px;
+}
+
+
+.photo-container{
+    width: 1200px;
+    height: 1800px;
 }
 
 
