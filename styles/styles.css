@@ -9,7 +9,7 @@ body{
 /* container styles */
 
 .container{    
-    width: 1300px;
+    
     height: 600px;
     background-color: #2D25A0;
 }
@@ -79,7 +79,7 @@ body{
 /* photo-container styles */
 
 .photo-container{
-    width: 1000px;
+    width: 1200px;
     height: 1750px;
 }
 
@@ -144,11 +144,13 @@ body{
 
 .logo-box{
     width: 1300px;
-    height: 300px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;   
+    margin-top: 120px;
+    
 }
 
 /* image styles */
@@ -188,4 +190,22 @@ body{
 /* media queries */
 
 /* for mobile device */
+
+@media only screen and (max-width: 688px) {
+    .container{
+        width: 360px;
+        height: 695px;
+
+    }
+    .copa{
+        width: 278px;
+        height: 138px;
+        margin: 100px 20px 60px;
+    }
+
+
+    .photo-frame{
+        display: none;
+    }
+}
 
