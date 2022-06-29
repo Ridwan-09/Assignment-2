@@ -143,6 +143,8 @@ body{
 /* footer styles */
 
 .logo-box{
+    width: 1300px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,8 +168,8 @@ body{
     width: 170px;
     height: 32px;
     gap: 14px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 20px 30px 80px;
+
 }
 
 
