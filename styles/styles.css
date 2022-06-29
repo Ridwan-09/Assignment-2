@@ -143,14 +143,11 @@ body{
 /* footer styles */
 
 .logo-box{
-    width: 1300px;
-    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;   
-    margin-top: 120px;
-    
+    margin-top: 5px;
 }
 
 /* image styles */
@@ -191,21 +188,5 @@ body{
 
 /* for mobile device */
 
-@media only screen and (max-width: 688px) {
-    .container{
-        width: 360px;
-        height: 695px;
 
-    }
-    .copa{
-        width: 278px;
-        height: 138px;
-        margin: 100px 20px 60px;
-    }
-
-
-    .photo-frame{
-        display: none;
-    }
-}
 
