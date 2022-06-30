@@ -4,6 +4,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 main{
     display: flex;
@@ -195,30 +196,3 @@ main{
 
 /* for mobile device */
 
-@media only screen and (max-width: 688px){
-    .container{
-        width: 100%;
-        height: 1000px;
-    }
-    .copa-banner{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .photo-container{
-        width: 400px;
-        height: 5100px;
-    }
-    .photo-album, .logo-box{
-        grid-template-columns: repeat(1, 1fr);
-        align-items: center;
-    }
-}
-
-/* tablet devices */
-
-@media only screen and (min-width: 688px) and (max-width:992px){
-    .photo-album{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
-}
