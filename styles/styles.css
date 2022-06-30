@@ -217,5 +217,8 @@ main{
 /* tablet devices */
 
 @media only screen and (min-width: 688px) and (max-width:992px){
+    .photo-album{
+        grid-template-columns: repeat(2, 1fr);
+    }
     
 }
