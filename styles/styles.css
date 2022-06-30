@@ -212,15 +212,10 @@ main{
         grid-template-columns: repeat(1, 1fr);
     }
     
-    .photo-album{
+    .photo-album, .logo-box{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    .logo-box{
-        width: 285px;
-        height: 175px;
-        justify-content: center;
-        align-items: center;
-    }
+    
        
 }
